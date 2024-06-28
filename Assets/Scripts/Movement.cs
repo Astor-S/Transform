@@ -1,13 +1,8 @@
 using UnityEngine;
 
-public class SphereMovement : MonoBehaviour
+public class Movement : MonoBehaviour
 {
     [SerializeField] private float _speed;
-
-    private void Start()
-    {
-        
-    }
 
     private void Update()
     {
